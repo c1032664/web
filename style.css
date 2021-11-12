@@ -16,27 +16,40 @@ header {
     background-size: auto;
 
 }
-
+#head1{
+    font-family:"Darker Grotesque";
+    font-size:50px;
+    font-weight:lighter;
+    padding-bottom:20%;
+}
+#head2{
+    font-family:"Darker Grotesque";
+    font-size:90px;
+    font-weight:lighter;
+}
+#head3{
+    font-family:"Darker Grotesque";
+    font-size:90px;
+    font-weight:lighter;
+    font-weight:bold;
+}
 h1 {
     color: white;
-    text-shadow: 3px 3px 3px darkgrey;
+    text-shadow: 2px 3px 10px black;
     line-height: 320px;
     text-transform: uppercase;
-
-
+    text-align: center;
 }
 nav {
-
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: rgba(0,0,0,0.4);
 }
 
-li {
+header li {
     float: left;
     list-style-type: none;
     display: inline;
+    text-align: center;
 }
 
 #nav li a {
@@ -47,8 +60,23 @@ li {
     text-decoration: none;
 }
 
+#nav{
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left:30%;
+    padding-right:30%;
+}
+#sub_techno{
+    display: none;
+}
+#main{
+    padding-left:30%;
+    padding-right:30%;
+}
 li a:hover {
-    background-color: #111;
+    background-color: lightgrey;
 }
 
 .video{
@@ -59,10 +87,11 @@ li a:hover {
 #img1{
     transform: rotate(-2deg);
     border-style: solid;
-    border-color: lightslategray;
-    padding: 0px;
-
-
+    border-color: gray;
+    border-width:2px;
+    padding: 7px;
+    display:inline-block;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 h2{
     font-size: 25px;
@@ -82,4 +111,58 @@ ul{
 table{
     font-family:"EB Garamond";
     font-size: 16pt;
+}
+
+.left_figure{
+    float:left;
+    margin-left:0;
+    max-width:300px;
+    margin-right:70px;
+}
+.left_figure > div{
+    transform: rotate(-2deg);
+    border-style: solid;
+    border-color: gray;
+    border-width:2px;
+    padding: 7px;
+    display:inline-block;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.figure_img{
+    padding-bottom:20px;
+    height:210px;
+    width:320px;
+}
+.right_figure{
+    float:right;
+    margin-left:0;
+    max-width:300px;
+    margin-left:50px;
+}
+.right_figure > div{
+    transform: rotate(2deg);
+    border-style: solid;
+    border-color: gray;
+    border-width:2px;
+    padding: 7px;
+    display:inline-block;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.caption{
+    text-align:right;
+    color:gray;font-family: 'special Elite';
+}
+footer{
+    text-align:center;
+    background-image:url(coursework/ocean.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    font-family: "Darker Grotesque";
+    padding:100px;
+    font-size:30px;
+}
+body{
+    margin:0px;
+    padding:0px;
 }
