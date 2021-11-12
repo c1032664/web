@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+title{
+    font-family:"EB Garamond";
+
+}
+header {
+    font-family: "Darker Grotesque";
+    background-image: url('coursework/ocean.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px 3px darkgrey;
+    line-height: 320px;
+    text-transform: uppercase;
+
+
+}
+nav {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    display: inline;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.video{
+    margin: auto;
+
+}
+
+#img1{
+    transform: rotate(-2deg);
+    border-style: solid;
+    border-color: lightslategray;
+    padding: 0px;
+
+
+}
+h2{
+    font-size: 25px;
+    font-family:"special Elite";
+}
+h3{
+    font-family:"special Elite";
+}
+p{
+    font-family:"EB Garamond";
+    font-size: 16pt;
+}
+ul{
+    font-family:"EB Garamond";
+    font-size: 16pt;
+}
+table{
+    font-family:"EB Garamond";
+    font-size: 16pt;
+}
