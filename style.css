@@ -20,7 +20,11 @@ header {
     font-family:"Darker Grotesque";
     font-size:50px;
     font-weight:lighter;
-    padding-bottom:20%;
+    position:relative;
+    bottom:25px;
+    right:10px;
+
+
 }
 #head2{
     font-family:"Darker Grotesque";
@@ -32,13 +36,14 @@ header {
     font-size:90px;
     font-weight:lighter;
     font-weight:bold;
+
 }
 h1 {
     color: white;
     text-shadow: 2px 3px 10px black;
-    line-height: 320px;
     text-transform: uppercase;
     text-align: center;
+    margin:0;
 }
 nav {
     overflow: hidden;
